@@ -1,0 +1,58 @@
+﻿# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Environments and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Large Binary Files & Media (Prevents GitHub RPC errors)
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.apk
+*.exe
+*.msix
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pdf
+
+# Build and Output
+dist/
+build/
+out/
+.next/
+bin/
+obj/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
