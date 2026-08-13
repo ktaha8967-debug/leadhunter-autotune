@@ -12,6 +12,21 @@ web_modules/
 *.pem
 *.key
 
+# Browser Profiles, Databases and Cache (Firefox/Chrome profiles)
+*profile/
+*profiles/
+cache/
+cache2/
+*.sqlite
+*.sqlite-wal
+*.sqlite-journal
+*.mozlz4
+*.jsonlz4
+*.bin
+**/data/
+**/logs/
+*.log
+
 # Large Binary Files & Media (Prevents GitHub RPC errors)
 *.mp4
 *.avi
